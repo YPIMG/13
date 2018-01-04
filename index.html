@@ -1,1 +1,21 @@
-asd
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <head>
+        <title>13 Cards</title>
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+        <link rel="manifest" href="/manifest.json">
+    </head>
+    <body>
+        <canvas id="canvas" width="800" height="600" style="position:absolute; left:0px;   top:0px;  "></canvas>
+        <script type="text/javascript">
+            window.addEventListener("error",function(error,url,line){
+                console.log(`Error in ${url} @ line ${line}: ${error}`);
+            });
+        </script>
+        <script type="text/javascript" src="https://webrtcexperiment-webrtc.netdna-ssl.com/DataChannel.js"></script>
+        <script type="text/javascript" src="JS/touch2mouse.js?134"></script>
+        <script type="text/javascript" src="JS/keyboard.js?134"   ></script>
+    </body>
+</html>
